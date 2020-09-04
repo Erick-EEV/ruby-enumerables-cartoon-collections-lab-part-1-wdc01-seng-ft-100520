@@ -3,6 +3,7 @@ def greet_characters(array)
   while index < array.each do
     puts "Hello #{array[index]}!"
 end
+index += 1
 end
 
  # Use `each` to enumerate over the provided array
