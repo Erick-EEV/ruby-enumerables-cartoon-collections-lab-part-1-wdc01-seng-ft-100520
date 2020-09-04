@@ -9,7 +9,7 @@ end
   
 def list_dwarves(array)
   item = 1
-  index = 1
+  index = 2
   array.each_with_index {|item, index| print "#{index}.#{item}"}
 end
 
