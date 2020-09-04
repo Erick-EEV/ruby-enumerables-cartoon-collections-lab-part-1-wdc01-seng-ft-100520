@@ -1,9 +1,14 @@
 def greet_characters(array)
-  # Use `each` to enumerate over the provided array
-  #
-  # Print a custom greeting for each element
+  index = 0
+  while 0 < array.each do
+    puts "Hello #{array[index}!"
+end
 end
 
+ # Use `each` to enumerate over the provided array
+  #
+  # Print a custom greeting for each element
+  
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
