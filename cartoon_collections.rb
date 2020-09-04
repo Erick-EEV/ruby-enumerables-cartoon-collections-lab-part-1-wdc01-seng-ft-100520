@@ -1,6 +1,7 @@
 def greet_characters(array)
  i = 0
- array[i].each { |i| puts "Hello #{i}!"}
+ while i < array.count do
+   p array.each {||}
 end
 
  # Use `each` to enumerate over the provided array
