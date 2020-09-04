@@ -1,9 +1,5 @@
 def greet_characters(array)
-  index = 0
-  while index < array.each do
-    puts "Hello #{array[index]}!"
-end
-index += 1
+ array.each
 end
 
  # Use `each` to enumerate over the provided array
