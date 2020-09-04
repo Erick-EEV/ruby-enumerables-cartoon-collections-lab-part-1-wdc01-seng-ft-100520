@@ -8,7 +8,7 @@ end
   # Print a custom greeting for each element
   
 def list_dwarves(array)
-  item = 2
+  item = 4
   index = 1
   array.each_with_index {|item, index| print "#{index} .#{item}"}
 end
