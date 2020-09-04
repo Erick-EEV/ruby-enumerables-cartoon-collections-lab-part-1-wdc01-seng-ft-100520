@@ -8,7 +8,8 @@ end
   # Print a custom greeting for each element
   
 def list_dwarves(array)
-  
+  i = 1
+  array.each_with_index
 end
 
   # Use `each_with_index` to enumerate over the provided array
