@@ -1,6 +1,6 @@
 def greet_characters(array)
   index = 0
-  while 0 < array.each do
+  while index < array.each do
     puts "Hello #{array[index]}!"
 end
 end
